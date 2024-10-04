@@ -12,54 +12,68 @@ import Image8 from '../../assets/Image8.jpg'
 
 const Gallery = () => {
   return (
-    <div className='mt-[30px] grid grid-cols-4'>
-        <div className='grid grid-cols-1 gap-5'>
-            <PlaceGallery 
-            img={Image1} 
-            title={'Lalibela'} 
-            description={'Lalibela, a UNESCO World Heritage Site in Ethiopia, is renowned for its 12th-century rock-hewn churches, carved entirely from ston'}
-            />
+    <div className='mt-[40px] ml-[50px]'>
+        <div className='grid grid-cols-2 ml-[20px]'>
+                <div>
+                    <p>Social Media</p>
+                    <p className='font-semibold text-[55px] w-[510px]'>They loved it and you will love it too.</p>
+                </div>
+                <p className='font-medium text-[25px] w-[600px]'>
+                   Explore Ethiopia’s stunning landscapes, from the 
+                   majestic Simien Mountains to the tranquil waters 
+                   of Lake Tana. Immerse yourself in the beauty and 
+                   history of this extraordinary land.
+                </p>
+            </div>
+        <div className='mt-[30px] grid grid-cols-4'>
+            <div className='grid grid-cols-1 gap-5'>
+                <PlaceGallery 
+                img={Image1} 
+                title={'Lalibela'} 
+                description={'Lalibela, a UNESCO World Heritage Site in Ethiopia, is renowned for its 12th-century rock-hewn churches, carved entirely from ston'}
+                />
 
-            <LargerPlaceGallery 
-            img={Image5}
-            title={'Simien Mountains'}
-            description={'The Simien Mountains, a UNESCO World Heritage Site, offer breathtaking views and challenging hikes. Home to unique wildlife, including the Gelada baboon, this stunning landscape provides a perfect blend of adventure and natural beauty.'}/>
-        </div>
-        <div className='grid grid-cols-1 gap-5'>
-            <LargerPlaceGallery 
-            img={Image6}
-            title={'Addis Ababa'}
-            description={'Addis Ababa, the capital of Ethiopia, is a bustling city rich in culture and history. Explore the National Museum, home to the famous fossilized remains of Lucy, and indulge in traditional Ethiopian cuisine in the lively Merkato market.'}
-            />
+                <LargerPlaceGallery 
+                img={Image5}
+                title={'Simien Mountains'}
+                description={'The Simien Mountains, a UNESCO World Heritage Site, offer breathtaking views and challenging hikes. Home to unique wildlife, including the Gelada baboon, this stunning landscape provides a perfect blend of adventure and natural beauty.'}/>
+            </div>
+            <div className='grid grid-cols-1 gap-5'>
+                <LargerPlaceGallery 
+                img={Image6}
+                title={'Addis Ababa'}
+                description={'Addis Ababa, the capital of Ethiopia, is a bustling city rich in culture and history. Explore the National Museum, home to the famous fossilized remains of Lucy, and indulge in traditional Ethiopian cuisine in the lively Merkato market.'}
+                />
 
-            <PlaceGallery 
-            img={Image2}
-            title={'Gondar'}
-            description={'Known as the "Camelot of Africa," Gondar is famous for its medieval castles and churches.'}/>
-        </div>
-        <div className='grid grid-cols-1 gap-5'>
-            <PlaceGallery 
-            img={Image3}
-            title={'Axum'}
-            description={'Axum, a city of ancient obelisks and ruins, was once the center of the Aksumite Empire.'}/>
-            <LargerPlaceGallery 
-            img={Image7}
-            title={'Omo Valley'}
-            description={'The Omo Valley is known for its diverse tribes and vibrant cultures. Visitors can engage with the unique traditions of the Hamar, Mursi, and Karo people, experiencing their colorful ceremonies and stunning traditional attire.'}
-            />
-        </div>
-        <div className='grid grid-cols-1 gap-5'>
-            <LargerPlaceGallery 
-            img={Image8}
-            title={'Bale Mountains'}
-            description={'The Bale Mountains National Park is a haven for wildlife enthusiasts, featuring unique ecosystems and rare species like the Ethiopian wolf. Hike through breathtaking landscapes, from alpine meadows to lush forests, while immersing yourself in the park.'}
-            />
+                <PlaceGallery 
+                img={Image2}
+                title={'Gondar'}
+                description={'Known as the "Camelot of Africa," Gondar is famous for its medieval castles and churches.'}/>
+            </div>
+            <div className='grid grid-cols-1 gap-5'>
+                <PlaceGallery 
+                img={Image3}
+                title={'Axum'}
+                description={'Axum, a city of ancient obelisks and ruins, was once the center of the Aksumite Empire.'}/>
+                <LargerPlaceGallery 
+                img={Image7}
+                title={'Omo Valley'}
+                description={'The Omo Valley is known for its diverse tribes and vibrant cultures. Visitors can engage with the unique traditions of the Hamar, Mursi, and Karo people, experiencing their colorful ceremonies and stunning traditional attire.'}
+                />
+            </div>
+            <div className='grid grid-cols-1 gap-5'>
+                <LargerPlaceGallery 
+                img={Image8}
+                title={'Bale Mountains'}
+                description={'The Bale Mountains National Park is a haven for wildlife enthusiasts, featuring unique ecosystems and rare species like the Ethiopian wolf. Hike through breathtaking landscapes, from alpine meadows to lush forests, while immersing yourself in the park.'}
+                />
 
-            <PlaceGallery 
-            img={Image4}
-            title={'Lake Tana'}
-            description={'Lake Tana, the largest lake in Ethiopia, is dotted with ancient monasteries on its islands. '}
-            />
+                <PlaceGallery 
+                img={Image4}
+                title={'Lake Tana'}
+                description={'Lake Tana, the largest lake in Ethiopia, is dotted with ancient monasteries on its islands. '}
+                />
+            </div>
         </div>
     </div>
   )
