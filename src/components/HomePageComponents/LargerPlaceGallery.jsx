@@ -28,7 +28,7 @@ const LargerPlaceGallery = ({img, title, description}) => {
 
     return (
         <div 
-            className='border-r-[10px] relative overflow-hidden group'
+            className='relative overflow-hidden group'
             onMouseEnter={() => setIsHovered(true)} // Set hover state to true
             onMouseLeave={() => setIsHovered(false)} // Set hover state to false
         >
