@@ -10,18 +10,18 @@ const NavBar = () => {
         WebkitBackdropFilter: 'blur(10px)',    // Safari support
         border: '1px solid rgba(255, 255, 255, 0.2)', // Border to enhance glass effect
         padding: '20px',                       // Padding inside the card
-        color: '#000',                         // Text color
+        color: '#fff',                         // Text color
         textAlign: 'center',                   // Center text alignment
         margin: '0 auto',                      // Center the card horizontally
     };
 
   return (
-    <div style={glassmorphicStyle} className='grid grid-flow-col w-[1034px]'>
-        <div className='cursor-pointer'>Home</div>
-        <div className='cursor-pointer'>Where To Go</div>
-        <div className='cursor-pointer'>About Ethiopia</div>
-        <div className='cursor-pointer'>Events and Festivals</div>
-        <div className='cursor-pointer'>Blogs</div>
+    <div style={glassmorphicStyle} className='grid grid-flow-col cursor-pointer absolute top-10 left-[220px] w-[1034px]'>
+        <div>Home</div>
+        <div>Where To Go</div>
+        <div>About Ethiopia</div>
+        <div>Events and Festivals</div>
+        <div>Blogs</div>
     </div>
   )
 }
