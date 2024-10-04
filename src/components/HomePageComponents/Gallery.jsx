@@ -12,7 +12,7 @@ import Image8 from '../../assets/Image8.jpg'
 
 const Gallery = () => {
   return (
-    <div className='mt-[40px] ml-[50px]'>
+    <div className='mt-[40px] ml-[50px] mb-[50px]'>
         <div className='grid grid-cols-2 ml-[20px]'>
                 <div>
                     <p>Social Media</p>
