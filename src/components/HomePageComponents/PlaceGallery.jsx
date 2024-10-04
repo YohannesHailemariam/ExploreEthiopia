@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import HeroImage from '../../assets/HeroImage.jpg';
 
-const PlaceGallery = () => {
+
+const PlaceGallery = ({img, title, description }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     // Overlay style with height 100% for visibility
@@ -33,15 +33,14 @@ const PlaceGallery = () => {
             onMouseLeave={() => setIsHovered(false)} // Set hover state to false
         >
             <img 
-                src={HeroImage}
+                src={img}
                 className='w-[300px] h-[200px] rounded-[10px] group-hover:scale-110 transition-transform duration-300'
-                alt="Lalibela" // Always include alt text for accessibility
+                alt="image here" // Always include alt text for accessibility
             />
             <div style={overlayStyle}>
-                <h3>Lalibela</h3>
+                <h3>{title}</h3>
                 <p>
-                    Lalibela, a UNESCO World Heritage Site in Ethiopia, is renowned for 
-                    its 12th-century rock-hewn churches, carved entirely from stone.
+                    {description}
                 </p>
             </div>
         </div>
