@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <h1 className={`${darkMode ? 'text-white': 'text-black'} text-xl font-medium mb-4`}>Useful Links</h1>
+                <h1 className='text-black  text-xl font-medium mb-4'>Useful Links</h1>
                 <div className='flex cursor-pointer flex-col gap-1'>
                     <p>Home</p>
                     <p>About Ethiopia</p>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <h1 className={`text-xl font-medium ${darkMode ? 'text-white': 'text-black'} mb-4`}>Join Us In</h1>
+                <h1 className='text-xl font-medium text-black mb-4'>Join Us In</h1>
                 <div className='flex flex-col gap-1 cursor-pointer'>
                     <p>Touring</p>
                     <p>Trying</p>
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             <div>
                 <div className='mb-5'>
-                    <h1 className={`${darkMode ? 'text-white': 'text-black'} text-xl font-medium mb-5`}>Connect with us</h1>
+                    <h1 className='text-black text-xl font-medium mb-5'>Connect with us</h1>
                     <div className='flex cursor-pointer flex-row gap-5'>
                         <FaFacebook className='text-blue-600 text-4xl'/>
                         <AiFillTwitterCircle className='text-blue-600 text-4xl'/>
@@ -55,7 +55,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h1 className={`${darkMode ? 'text-white': 'text-black'} text-xl font-medium text-black mb-4`}>Download Our App</h1>
+                    <h1 className= 'text-xl font-medium text-black mb-4'>Download Our App</h1>
                     <div className='flex flex-row gap-5'>
                         <div className='border cursor-pointer bg-black rounded-2xl text-white flex flex-row gap-5 p-4'>
                             <FaGooglePlay className='text-3xl'/>
