@@ -14,7 +14,7 @@ const AboutUsSection = () => {
                 Explore the heart of our service, our values, 
                 and the community we cherish in the section below.
             </p>
-            <div className='grid grid-cols-2 gap-10 mt-5'>
+            <div className='grid grid-cols-2 gap-10 mt-5 mb-12'>
                 <AboutUsCard 
                     icon={<CiGlobe />} 
                     title={'Cultural Immersion'} 
