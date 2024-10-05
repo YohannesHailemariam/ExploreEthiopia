@@ -6,7 +6,7 @@ import Gallery from '../components/HomePageComponents/Gallery'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='font-abc'>
         <HeroImage />
         <NavBar />
         <Gallery />
