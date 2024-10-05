@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import HeroImagee from '../../assets/HeroImage.jpg';
 import Button from '../CommonComponents/Button';
 import { useNavigate } from 'react-router-dom';
