@@ -18,7 +18,7 @@ const Gallery = () => {
                     <p>Social Media</p>
                     <p className='font-semibold text-[55px] w-[510px]'>They loved it and you will love it too.</p>
                 </div>
-                <p className='font-medium text-[25px] w-[600px]'>
+                <p className=' font-normal mt-6 text-[23px] w-[600px]'>
                    Explore Ethiopia’s stunning landscapes, from the 
                    majestic Simien Mountains to the tranquil waters 
                    of Lake Tana. Immerse yourself in the beauty and 
