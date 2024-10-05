@@ -7,11 +7,10 @@ import { FaApple } from "react-icons/fa6";
 import { FaGooglePlay } from "react-icons/fa";
 
 const Footer = () => {
-    const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className='text-[#5E6282] '>
-        <div className={`${darkMode ? 'bg-[#13253D]' : 'bg-[#ECF1F0] '} flex flex-row gap-[145px] p-10`}>
+        <div className='bg-[#ECF1F0] flex flex-row gap-[145px] p-10' >
             <div>
                 <div className='flex flex-col gap-1'>
                     <p className='w-[300px]'>
