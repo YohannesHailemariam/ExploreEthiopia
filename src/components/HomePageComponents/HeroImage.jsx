@@ -1,8 +1,15 @@
-import React from 'react'
-import HeroImagee from '../../assets/HeroImage.jpg'
-import Button from '../CommonComponents/Button'
+import React from 'react';
+import HeroImagee from '../../assets/HeroImage.jpg';
+import Button from '../CommonComponents/Button';
+import { useNavigate } from 'react-router-dom';
 
 const HeroImage = () => {
+  
+  const navigate = useNavigate();
+  const goToAboutPage = () => {
+    navigate('/about');
+  };
+
   return (
     <div className='relative'>
         <img src={HeroImagee} className='w-full h-screen'/>
@@ -13,7 +20,7 @@ const HeroImage = () => {
                Simien Mountains to the timeless rock-hewn churches of Lalibela,
                Ethiopia offers a journey like no other.
             </p>
-            <div className='mt-[30px] flex justify-center'><Button text={'Learn More'}/></div>
+            <div className='mt-[30px] flex justify-center'><Button text={'Learn More'} onClick={goToAboutPage}/></div>
         </div>
     </div>
   )
