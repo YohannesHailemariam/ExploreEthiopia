@@ -6,7 +6,7 @@ import Footer from '../components/CommonComponents/Footer'
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className='font-abc'>
       <AboutLandingImage />
       <NavBar />
       <AboutUsSection />
